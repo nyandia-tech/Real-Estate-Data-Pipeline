@@ -7,6 +7,7 @@ import re
 # Load the dataset
 df = pd.read_csv("data/redfin_hollywood_hills.csv")
 
+
 # Display basic info about the dataset
 def inspect_data(df):
     print("\nData Overview:")
@@ -117,3 +118,4 @@ if __name__ == "__main__":
     summarize_data(df)
     plot_price_distribution(df)
     analyze_beds_baths(df)
+    
